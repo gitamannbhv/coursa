@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursa - Premium Courses at Minimal Cost</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .nav-logo {
+            height: 80px;
+            width: 50p;
+            margin-left: 20px;
+        }
+        
+        .logo-text {
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-container">
+                    <a href="#" class="logo logo-text">Coursa</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <img src="KKK.jpg" alt="Coursa Owl Logo" class="nav-logo">
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Premium Coursera & Udemy Courses at Minimal Cost</h1>
+            <p>Access world-class education for up to 70% off retail prices with official certificates and full platform access</p>
+            <div class="hero-btns">
+                <a href="#courses" class="btn btn-primary">Browse Discounted Courses</a>
+                <a href="#how-it-works" class="btn btn-secondary">How It Works</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Propositions -->
+    <section class="value-props section-padding">
+        <div class="container">
+            <div class="props-container">
+                <div class="prop-card">
+                    <div class="prop-icon">
+                        <i class="fas fa-percentage"></i>
+                    </div>
+                    <h3>Save 50-70%</h3>
+                    <p>We negotiate bulk discounts directly with partners so you don't have to pay full price</p>
+                </div>
+                <div class="prop-card">
+                    <div class="prop-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Official Certificates</h3>
+                    <p>Receive the same verified certificates as direct purchasers upon course completion</p>
+                </div>
+                <div class="prop-card">
+                    <div class="prop-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our education specialists are always available to help with any questions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center">How It Works</h2>
+            <p class="text-center" style="max-width: 700px; margin: 0 auto 50px;">Getting your discounted course is simple and takes less than 5 minutes</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Browse Courses</h3>
+                    <p>Explore our catalog of discounted Coursera and Udemy courses</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Select Course</h3>
+                    <p>Choose the course you want and add it to your cart</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Complete Purchase</h3>
+                    <p>Check out securely and receive payment confirmation</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Get Access</h3>
+                    <p>Receive official course access within 24 hours</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses section-padding">
+        <div class="container">
+            <h2 class="section-title text-center">Popular Courses</h2>
+            <p class="text-center" style="max-width: 700px; margin: 0 auto 30px;">Browse our selection of top-rated courses at unbeatable prices</p>
+            
+            <div class="course-filters">
+                <button class="filter-btn active">All Courses</button>
+                <button class="filter-btn">Coursera</button>
+                <button class="filter-btn">Udemy</button>
+                <button class="filter-btn">Business</button>
+                <button class="filter-btn">Technology</button>
+            </div>
+            
+            <div class="course-grid">
+                <!-- Course 1 -->
+                <div class="course-card">
+                    <div class="course-img" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80');"></div>
+                    <div class="course-info">
+                        <h3>Python for Everybody</h3>
+                        <p>University of Michigan - Beginner Python Programming</p>
+                        <div class="course-price">
+                            <span class="current-price">$29</span>
+                            <span class="original-price">$79</span>
+                            <span class="discount-badge">63% OFF</span>
+                        </div>
+                        <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- Course 2 -->
+                <div class="course-card">
+                    <div class="course-img" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+                    <div class="course-info">
+                        <h3>Machine Learning</h3>
+                        <p>Stanford University - AI Fundamentals</p>
+                        <div class="course-price">
+                            <span class="current-price">$39</span>
+                            <span class="original-price">$99</span>
+                            <span class="discount-badge">61% OFF</span>
+                        </div>
+                        <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- Course 3 -->
+                <div class="course-card">
+                    <div class="course-img" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80');"></div>
+                    <div class="course-info">
+                        <h3>Financial Markets</h3>
+                        <p>Yale University - Investment Strategies</p>
+                        <div class="course-price">
+                            <span class="current-price">$34</span>
+                            <span class="original-price">$89</span>
+                            <span class="discount-badge">62% OFF</span>
+                        </div>
+                        <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Enroll Now</a>
+                    </div>
+                </div>
+                
+                <!-- Course 4 -->
+                <div class="course-card">
+                    <div class="course-img" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+                    <div class="course-info">
+                        <h3>The Complete Digital Marketing Course</h3>
+                        <p>Udemy - 12 Courses in 1</p>
+                        <div class="course-price">
+                            <span class="current-price">$14.99</span>
+                            <span class="original-price">$199.99</span>
+                            <span class="discount-badge">93% OFF</span>
+                        </div>
+                        <a href="#" class="btn btn-primary" style="width: 100%; text-align: center;">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="#" class="btn btn-secondary">View All Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <h2 class="section-title text-center">What Students Say</h2>
+            <p class="text-center" style="max-width: 700px; margin: 0 auto 50px;">Don't just take our word for it - hear from our satisfied students</p>
+            
+            <div class="testimonial-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>I saved over $200 on my Google Data Analytics certificate through Coursa. The process was seamless and I got the exact same certificate as my friends who paid full price.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img" style="background-image: url('https://randomuser.me/api/portraits/women/44.jpg');"></div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Data Analyst</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>As a college student on a budget, Coursa has been a game-changer. I've taken 4 Udemy courses through them and saved over $300 total. The support team is always helpful when I have questions.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img" style="background-image: url('https://randomuser.me/api/portraits/men/32.jpg');"></div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Computer Science Student</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>I was skeptical at first but decided to try Coursa for an IBM Data Science course. Not only did I save 60%, but the course access came within 2 hours of purchase. Highly recommend!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img" style="background-image: url('https://randomuser.me/api/portraits/women/68.jpg');"></div>
+                        <div class="author-info">
+                            <h4>Priya Patel</h4>
+                            <p>Aspiring Data Scientist</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-padding" style="background-color: var(--light);">
+        <div class="container">
+            <h2 class="section-title text-center">Frequently Asked Questions</h2>
+            
+            <div style="max-width: 800px; margin: 50px auto 0;">
+                <details style="margin-bottom: 20px; background: white; padding: 20px; border-radius: 8px;">
+                    <summary style="font-weight: 600; font-size: 1.1rem; cursor: pointer;">Is this legal? How can you offer such discounts?</summary>
+                    <p style="margin-top: 15px;">Yes, it's completely legal! We work directly with official partners and purchase courses in bulk at discounted rates, similar to how large organizations buy licenses for their employees. We then pass these savings on to individual students.</p>
+                </details>
+                
+                <details style="margin-bottom: 20px; background: white; padding: 20px; border-radius: 8px;">
+                    <summary style="font-weight: 600; font-size: 1.1rem; cursor: pointer;">Will I receive an official certificate upon completion?</summary>
+                    <p style="margin-top: 15px;">Absolutely! You'll receive the exact same certificate as someone who purchased directly from Coursera or Udemy. There's no difference in the course content or credentials.</p>
+                </details>
+                
+                <details style="margin-bottom: 20px; background: white; padding: 20px; border-radius: 8px;">
+                    <summary style="font-weight: 600; font-size: 1.1rem; cursor: pointer;">How quickly will I get access after purchasing?</summary>
+                    <p style="margin-top: 15px;">Most courses are activated within 2-24 hours of purchase. We'll send you an email with login instructions as soon as your course is ready.</p>
+                </details>
+                
+                <details style="margin-bottom: 20px; background: white; padding: 20px; border-radius: 8px;">
+                    <summary style="font-weight: 600; font-size: 1.1rem; cursor: pointer;">What payment methods do you accept?</summary>
+                    <p style="margin-top: 15px;">We accept all major credit cards, PayPal, and in some regions, mobile payment options. All transactions are processed securely through encrypted connections.</p>
+                </details>
+                
+                <details style="margin-bottom: 20px; background: white; padding: 20px; border-radius: 8px;">
+                    <summary style="font-weight: 600; font-size: 1.1rem; cursor: pointer;">Can I get a refund if I'm not satisfied?</summary>
+                    <p style="margin-top: 15px;">We offer a 14-day refund policy for any course that hasn't been activated yet. Once course access has been provided, standard platform refund policies apply.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to start learning smarter?</h2>
+            <p>Join thousands of students who are advancing their careers while saving money on premium education</p>
+            <a href="#courses" class="btn btn-secondary">Browse Courses</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Coursa</h3>
+                    <p>Making quality education affordable for students worldwide since 2023.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Courses</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Coursera Courses</a></li>
+                        <li><a href="#">Udemy Courses</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Data Science</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> support@coursa.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education St, San Francisco, CA</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Coursa. All rights reserved. | <a href="#" style="color: #aaa;">Privacy Policy</a> | <a href="#" style="color: #aaa;">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+
+</body>
+</html>
